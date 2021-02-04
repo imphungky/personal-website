@@ -17,7 +17,7 @@ export default function Home() {
   return (
         <Flex>
         <Head>
-          <title>Create Next App</title>
+          <title>Michael Phung's Personal Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Flex p="10" minH="80vh" w="70vw" direction="column" justify="center" alignItems="baseline" color="white">
