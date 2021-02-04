@@ -75,7 +75,7 @@ export default function ContactForm() {
                     }}
                     >
                     {(props) => (
-                        <Form name="contactform">
+                        <Form name="contactform" netlify>
                             <Flex direction="column" w="25vw">
                             <Flex>
                             <Field name="name" validate={validateInput}>
