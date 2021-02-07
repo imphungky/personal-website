@@ -27,7 +27,7 @@ export default function Nav() {
         </VStack>
         <VStack p="5" spacing={10}  alignContent="center" justify="center">
             <NavIcon icon={AiFillGithub} href="https://github.com/imphungky"/>
-            <NavIcon icon={AiFillLinkedin} href="" />
+            <NavIcon icon={AiFillLinkedin} href="https://www.linkedin.com/in/michael-phung-508b5a175/" />
         </VStack>
     </VStack>
     );

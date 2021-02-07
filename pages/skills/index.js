@@ -55,7 +55,7 @@ export default function Skills() {
         </Flex>
     <Flex mt="10" w="25vw" direction="column">
         <Text fontSize="20px"><Box as="span" color="blue.200" >Languages:</Box> C, Java, Python, JavaScript, Racket, Haskell, HTML/CSS, SQL</Text>
-        <Text mt="5" fontSize="20px">Most of my personal projects consist of full stack web applications. So a large portion of my coding exposure is with JavaScript, HTML/CSS, and PHP. With that being said I do have experience with other languages as my education has required me to be adaptable to any language.</Text>
+        <Text mt="5" fontSize="20px">Most of my personal projects consist of fullstack web applications. So a large portion of my coding exposure is with JavaScript, HTML/CSS, and PHP. With that being said I do have experience with other languages as my education has required me to be adaptable to any language.</Text>
     </Flex>
     </Flex>
     );
