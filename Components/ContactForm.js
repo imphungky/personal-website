@@ -18,7 +18,11 @@ import {
     Field
 } from "formik";
 
+import { useToast } from "@chakra-ui/react"
+
 export default function ContactForm() {
+
+    const toast = useToast();
 
     function validateEmail(value) {
         let error;
@@ -67,9 +71,21 @@ export default function ContactForm() {
                         })
                         .then(() => {
                             actions.resetForm()
+                            toast({
+                                title: "Message sent.",
+                                status: "success",
+                                duration: 9000,
+                                isClosable: true,
+                            });
                         })
                         .catch(() => {
-                            console.log("Error");
+                            toast({
+                                title: "An Error occurred.",
+                                description: "The message could not be sent.",
+                                status: "error",
+                                duration: 9000,
+                                isClosable: true,
+                            });
                         });
                         actions.setSubmitting(false)
                     }}
