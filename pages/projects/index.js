@@ -26,8 +26,8 @@ export default function Projects() {
         {
             heading: "CollabCloud",
             description: "A social networking platform targeted towards developers/entrepreneurs to find collaborators. \
-             Users can post their projects from either importing it from github or just through our platform, join other \
-             projects posted, or simply just browse through the forum to find something that's best suited for them.",
+             Users can post their projects by importing it from github or through our platform, join other \
+             projects posted, or simply just browse through the forum to find something that is best suited for them.",
             imageURL: "/collabcloudss.PNG"
         },
         {
