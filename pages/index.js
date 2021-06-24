@@ -49,7 +49,7 @@ export default function Home() {
           </Heading>
           <MotionBox mt="4" w="70%" initial={{opacity: 0}} animate={{opacity: 100}} transition={{delay: 1.4, duration:4}}>
             <Text fontSize="20px">
-            A fourth year student at the University of Toronto, Mississauga. I enjoy working on fullstack projects and exploring new ideas!
+            A fourth year student at the University of Toronto, Mississauga. I enjoy working on full stack projects and exploring new ideas!
             </Text>
           </MotionBox>
         </Flex>
