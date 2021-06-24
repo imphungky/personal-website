@@ -41,7 +41,7 @@ export default function Projects() {
             description: "A discord bot with the purpose of communicating with Riot API to get info/stats on the game League of Legends. Users are able to check their player stats, \
             view recent matches, and get the latest patch notes from the commands supplied." ,
             imageURL: "/leaguebotss.PNG"
-        }
+        },
     ];
     return (
     <Flex w="94vw" direction="column" h="80vh" justify="center" alignItems="center">
